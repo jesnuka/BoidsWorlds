@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 2357429707441538232}
   - component: {fileID: 2357429707441538229}
   - component: {fileID: 2357429707441538230}
-  - component: {fileID: 1133117883}
   m_Layer: 0
   m_Name: Squad Member
   m_TagString: Untagged
@@ -64,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c5cde091b9e49954692f8eb3582e4574, type: 2}
+  - {fileID: 2100000, guid: 091bb22b3315a234e9005470dd6d1032, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -156,22 +155,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angular: 0
   linear: {x: 0, y: 0, z: 0}
---- !u!114 &1133117883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2357429707441538239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20397d7a978a65942a83455de362eb60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 0}
-  movementState: 0
-  actionState: 0
-  targetAttackable: 0
-  neighborDistance: 0
-  groupList: []
-  flockBehaviourOn: 1

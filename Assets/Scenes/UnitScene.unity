@@ -411,7 +411,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 05ec6d55614a6154a8a2c83149f1f33f, type: 2}
+  - {fileID: 2100000, guid: 091bb22b3315a234e9005470dd6d1032, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -483,13 +483,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20397d7a978a65942a83455de362eb60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 663723893}
-  movementState: 1
-  actionState: 0
-  targetAttackable: 0
-  neighborDistance: 0
-  groupList: []
-  flockBehaviourOn: 0
 --- !u!1 &1107209838
 GameObject:
   m_ObjectHideFlags: 0
